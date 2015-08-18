@@ -1,0 +1,19 @@
+{
+  "name": "CodingLife",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ShadowZheng/CodingLife",
+  "authors": [
+    "Andy Zheng <azheng@objectivasoftware.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "snap.svg": "~0.4.1"
+  }
+}
