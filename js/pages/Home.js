@@ -1,18 +1,10 @@
-var React = require('react');
-var Typer = require('../components/Typer.js');
+import React from 'react';
 
-var Home = React.createClass({
-	render: function() {
+export default class Home extends React.Component {
+	render() {
 		return (
-			<section className="Home">
-				<div className="">
-					<header className="">
-						<h1>郑敏</h1>
-					</header>
-				</div>
-			</section>
-		);
+			<p>我是Home页面</p>
+		)
 	}
-});
 
-module.exports = Home;
+}
