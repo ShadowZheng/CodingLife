@@ -55,8 +55,6 @@ gulp.task('browserify', function() {
 });
 // watch task
 gulp.task('watch', function() {
-    // gulp.watch('./dist/js/*.js').on('change', connect.reload());
-    // gulp.watch('./dist/css/*.css').on('change', connect.reload());
     gulp.watch(path.js, ['build-js']);
     gulp.watch(path.scss, ['scss']);
 })

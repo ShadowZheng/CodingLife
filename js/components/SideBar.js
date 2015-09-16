@@ -11,7 +11,7 @@ export default class SideBar extends React.Component {
 				<ul>
 					<li><Link to="home">Home</Link></li>
 					<li><Link to="projectList">Projects</Link></li>
-					<li><Link to="projectList">About</Link></li>
+					<li><Link to="about">About</Link></li>
 				</ul>
 			</nav>
 		)
