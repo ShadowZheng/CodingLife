@@ -1,0 +1,12 @@
+// normalize
+@import '../vendor/normalize-scss/normalize';
+
+// common
+@import 'common/var';
+@import 'common/global';
+
+// components
+@import 'components/sidebar';
+
+// pages
+@import 'pages/home';

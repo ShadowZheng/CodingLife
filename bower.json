@@ -1,0 +1,9 @@
+{
+  "name": "CodingLife",
+  "private": true,
+  "version": "0.0.1",
+  "dependencies": {
+    "normalize-scss": "~3.0.3",
+    "Snap.svg": "snap.svg#~0.4.1"
+  }
+}
