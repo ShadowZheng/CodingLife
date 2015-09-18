@@ -36,10 +36,10 @@ gulp.task('build-js', function() {
             transform: ['babelify'],
             insertGlobals: true
         }))
-        .pipe(uglify({
-            compress: false,
-            mangle: true
-        }))
+        // .pipe(uglify({
+        //     compress: false,
+        //     mangle: true
+        // }))
         .pipe(gulp.dest('./dist/js'))
         .pipe(connect.reload())
 })

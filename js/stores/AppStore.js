@@ -1,19 +1,8 @@
-// import {
-// 	EventEmitter
-// }
-// from 'events';
-// import AppDispatcher from '../dispatcher/AppDispatcher';
+import BaseStore from './BaseStore';
+import AppDispatcher from '../dispatcher/AppDispatcher';
 
-// export default class AppStore extends EventEmitter {
+export default class AppStore extends BaseStore {
 
-// 	emitChange() {
-//         this.emit('change');
-//     }
-//     addChangeListener(callback) {
-//         this.on('change', callback);
-//     }
-//     removeChangeListener(callback) {
-//         this.removeListener('change', callback);
-//     }
+	
     
-// }
+}

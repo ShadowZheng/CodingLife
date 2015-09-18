@@ -1,6 +1,6 @@
 import React from 'react';
 import Router, {Route, DefaultRoute, RouteHandler} from 'react-router';
-import SideBar from './components/SideBar';
+import Nav from './components/Nav';
 import Home from './pages/Home';
 import ProjectList from './pages/ProjectList';
 import About from './pages/About';
@@ -12,8 +12,9 @@ class App extends React.Component {
   render() {
   	return (
   		<div id="container">
-  			<SideBar />
+  			<Nav />
   			<RouteHandler />
+        <div id="backdrop"></div>
   		</div>
   	)
   }

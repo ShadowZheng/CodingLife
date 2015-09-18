@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "dependencies": {
+    "jquery": "~2.1.4",
     "normalize-scss": "~3.0.3",
     "Snap.svg": "snap.svg#~0.4.1"
   }
