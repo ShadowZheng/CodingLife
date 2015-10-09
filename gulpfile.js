@@ -55,13 +55,13 @@ gulp.task('browserify', function() {
 });
 // watch task
 gulp.task('watch', function() {
-    gulp.watch(path.js, ['build-js']);
+    // gulp.watch(path.js, ['build-js']);
     gulp.watch(path.scss, ['scss']);
 })
 
 gulp.task('default', ['browserify']);
 gulp.task('build', ['build-js', 'scss']);
-gulp.task('serve', ['browserify', 'connect','watch']);
+gulp.task('serve', ['connect','watch']);
 
 function handleError(err) {
     console.log(err.toString());

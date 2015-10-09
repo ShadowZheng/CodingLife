@@ -324,8 +324,7 @@ var App = (function (_React$Component) {
         'div',
         { id: 'container' },
         _react2['default'].createElement(_componentsNav2['default'], null),
-        _react2['default'].createElement(_reactRouter.RouteHandler, null),
-        _react2['default'].createElement('div', { id: 'backdrop' })
+        _react2['default'].createElement(_reactRouter.RouteHandler, null)
       );
     }
   }]);
@@ -346,7 +345,7 @@ _reactRouter2['default'].run(routes, _reactRouter2['default'].HashLocation, func
   _react2['default'].render(_react2['default'].createElement(Handler, null), document.getElementById('app'));
 });
 
-}).call(this,require("VCmEsw"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_eea330d2.js","/")
+}).call(this,require("VCmEsw"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_80f54a73.js","/")
 },{"./components/Nav":2,"./pages/About":7,"./pages/Home":8,"./pages/ProjectList":9,"VCmEsw":18,"buffer":14,"react":212,"react-router":43}],6:[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 "use strict";
